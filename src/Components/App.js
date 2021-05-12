@@ -1,7 +1,7 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import Signup from "../Components/Signup";
-import { AuthProvider } from "../Contexts/AuthContext";
+import { AuthProvider } from "../AuthContext/AuthCont";
 function App() {
   return (
     <AuthProvider>
